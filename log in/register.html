@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="register.css" />
+    <script src="main.js"></script>
+</head>
+<body>            
+    <form action="">
+       <div class="container">
+           <h1 class="registryheader">Register form</h1>
+           <p>please fill this form to create an account.</p>
+           <hr>
+            <label for="user" ><b> Username: </b></label>
+            <input type="text" name="user" id="user" required>
+            <label for="First_name"><b>First name: </b></label>
+            <input type="text" name="First_name" id="First_name" required>
+            <label for="Last_name"><b>Last name: </b></label>
+            <input type="text" name="Last_name" id="Last_name" required>
+            <label for="sex"><b>Gender: </b></label>
+           <div>                
+                <input type="radio" name="gender"  value="Male" class="gender" id="generoM">
+                 <label for="generoM">Male</label>
+                <input type="radio" name="gender"  value="Female" class="gender" id="generoF">
+                <label for="generoF">Female</label> 
+            </div>
+            <label for="email"><b>Email: </b></label>
+            <input type="email" name="email" id="email" required>
+            <label for="birthdate"><b>Birth date: </b></label>
+            <input type="date" name="birthdate" id="birthdate">
+            <label for="password"><b>Password: </b></label>
+            <input type="password" name="password" id="password" required> 
+            <label for="confirmpassword"><b>Confirm password: </b></label>       
+            <input type="password" name="confirmpassword" id="confirmpassword" required>   
+            <input type="submit" value="Create account" class="btnSubmit">   
+            <input type="reset" value="Clear fields">
+            <p class="haveaccount"> Already have an account? <a href="C:\Users\breyes\Documents\PRUEBAS\HTML\log in\login.html">Sign in</a>.</p>
+        </div>
+    </form> 
+
+</body>
+</html>
